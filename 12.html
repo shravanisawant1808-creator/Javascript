@@ -1,0 +1,19 @@
+//Change the text of the first paragraph using querySelector() when button is clicked
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hello Students ! good morning !.</p>
+    <button onclick="changeParagraphText()">change greetings</button>
+    <script>
+        function changeParagraphText() {
+            const firstParagraph = document.querySelector("p");
+            firstParagraph.textContent = "Welcome to javascript!";
+        }
+    </script>
+</body>
+</html>
