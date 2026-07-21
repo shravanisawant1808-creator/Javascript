@@ -1,0 +1,21 @@
+//selecting elements using querySelector
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=10, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1 id="heading"> </H1>
+    <button onclick="changeText()">Click Me</button>
+    <script>
+        function changeText() {
+            const heading = document.querySelector("#heading");
+            heading.textContent = "Hello Students";
+        }
+    </script> 
+    
+
+</body>
+</html>
